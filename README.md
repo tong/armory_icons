@@ -1,37 +1,54 @@
 # Armory Icons
-<div style="background: #2D2D2D; padding: 1rem;">
-<!-- <div style="padding: 0;"> -->
-    <div title="exported">
-        <img src="out/bundle.png" height="16">
-        <img src="out/canvas.png" height="16">
-        <img src="out/haxe.png" height="16">
-        <img src="out/nodes.png" height="16">
-        <img src="out/wasm.png" height="16">
-    </div>
-    <hr>
-    <div title="bundle">
+
+<style>
+    preview {
+        padding: 1rem;
+        display: grid;
+        place-items: center;
+    }
+    preview>group {
+        display: flex;
+    }
+    preview>group>img {
+        margin: 0.25ch;
+        padding: 2em;
+        background: #202020;
+    }
+</style>
+<preview>
+    <group>
         <img src="src/bundle.svg" height="128">
         <img src="src/bundle.svg" height="64">
         <img src="src/bundle.svg" height="32">
         <img src="src/bundle.svg" height="16">
-    </div>
-    <div title="canvas">
-        <img src="src/canvas.svg" height="128">
-        <img src="src/canvas.svg" height="64">
-        <img src="src/canvas.svg" height="32">
-        <img src="src/canvas.svg" height="16">
-    </div>
-    <div title="haxe">
+        <img src="src/bundle.svg" height="8">
+    </group>
+    <group>
         <img src="src/haxe.svg" height="128">
         <img src="src/haxe.svg" height="64">
         <img src="src/haxe.svg" height="32">
         <img src="src/haxe.svg" height="16">
-    </div>
-    <div title="nodes">
+        <img src="src/haxe.svg" height="8">
+    </group>
+    <group>
         <img src="src/nodes.svg" height="128">
         <img src="src/nodes.svg" height="64">
         <img src="src/nodes.svg" height="32">
         <img src="src/nodes.svg" height="16">
-    </div>
-    <!-- <img src="preview.png"> -->
-</div>
+        <img src="src/nodes.svg" height="8">
+    </group>
+    <group>
+        <img src="src/canvas.svg" height="128">
+        <img src="src/canvas.svg" height="64">
+        <img src="src/canvas.svg" height="32">
+        <img src="src/canvas.svg" height="16">
+        <img src="src/canvas.svg" height="8">
+    </group>
+    <group>
+        <img src="src/logicnodes.svg" height="128">
+        <img src="src/logicnodes.svg" height="64">
+        <img src="src/logicnodes.svg" height="32">
+        <img src="src/logicnodes.svg" height="16">
+        <img src="src/logicnodes.svg" height="8">
+    </group>
+</preview>
