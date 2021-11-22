@@ -1,0 +1,25 @@
+{
+  "name": "armory_icons",
+  "version": "0.0.0",
+  "description": "Source files of amrory3d icons",
+  "private": true,
+  "scripts": {
+    "clean": "rm -f out/*.png out/*.svg",
+    "export-png": "node export-png.js",
+    "export-svg": "svgo -f src out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tong/armory_icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tong/armory_icons/issues"
+  },
+  "homepage": "https://github.com/tong/armory_icons#readme",
+  "devDependencies": {
+    "svgexport": "^0.4.2",
+    "svgo": "^2.8.0"
+  }
+}
