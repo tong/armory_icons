@@ -9,12 +9,11 @@ from os import path
 SRC = "src"
 OUT = "out"
 SIZE = 32
+BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
 def run(cmd, *, env=None):
     print("   ", " ".join(cmd))
     subprocess.check_call(cmd, env=env)
-
-BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
 env = {}
 
@@ -29,17 +28,26 @@ if sys.platform[:3] == "win":
 
 inkscape_bin = os.environ.get("INKSCAPE_BIN", "inkscape")
 
-def export_icon(id:str, out:str, size:int, type="png"):
+def export_png(id:str, out:str, size:int, type="png"):
     cmd = (
         inkscape_bin,
         os.path.join(SRC, id+'.svg'),
         "--export-area-page",
-        "--export-width=" + str(size),
-        "--export-height=" + str(size),
-        "--export-type=" + type,
-        "--export-id=" + id,
-        "--export-id-only",
+        # "--export-width=" + str(size),
+        # "--export-height=" + str(size),
+        "--export-type=png",
         "--export-filename=" + out+'.'+type
+    )
+    run(cmd, env=env)
+
+def export_svg(id:str, out:str, size:int):
+    cmd = (
+        inkscape_bin,
+        os.path.join(SRC, id+'.svg'),
+        "--export-area-page",
+        "--export-type=svg",
+        "--export-plain-svg",
+        "--export-filename=" + out+'.svg'
     )
     run(cmd, env=env)
 
@@ -48,8 +56,8 @@ if not path.exists(OUT):
 for f in [f for f in os.listdir('src') if re.match(r'[a-z]+.*\.svg', f)]:
     id = f.split('.')[0]
     basepath = os.path.join(OUT, id)
-    export_icon(id, basepath, SIZE, 'png')
-    # export_icon(id, basepath, SIZE, 'svg')
+    export_png(id, basepath, SIZE, 'png')
+    export_svg(id, basepath, SIZE)
 
 # cmd = (
 #     blender_bin, "--background", "--factory-startup", "-noaudio",

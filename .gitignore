@@ -1,3 +1,4 @@
 _*/
-out/
+out/*.png
+out/*.svg
 screenshot*.png
