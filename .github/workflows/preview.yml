@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup
-        run: sudo apt install inkscape
+        run: sudo snap install inkscape
       - name: Export
         run: python export.py
       - name: Deploy
