@@ -4,7 +4,7 @@
 <svg
               width="32"
               height="32"
-              viewBox="0 0 8.4666666 8.4666668"
+              viewBox="0 0 8.4666665 8.466667"
               version="1.1"
               id="svg8"
               sodipodi:docname="haxe.svg"
@@ -28,20 +28,20 @@
                            borderopacity="1.0"
                            inkscape:pageopacity="0"
                            inkscape:pageshadow="2"
-                           inkscape:zoom="18.866975"
-                           inkscape:cx="16.059808"
-                           inkscape:cy="34.690246"
+                           inkscape:zoom="4.8591004"
+                           inkscape:cx="-15.126257"
+                           inkscape:cy="85.509655"
                            inkscape:document-units="px"
                            inkscape:current-layer="g3276"
                            showgrid="true"
                            units="px"
-                           inkscape:window-width="1147"
+                           inkscape:window-width="1210"
                            inkscape:window-height="2136"
-                           inkscape:window-x="953"
+                           inkscape:window-x="1962"
                            inkscape:window-y="20"
                            inkscape:window-maximized="0"
                            inkscape:pagecheckerboard="true"
-                           showguides="true"
+                           showguides="false"
                            inkscape:lockguides="false"
                            inkscape:guide-bbox="true">
                           <inkscape:grid
@@ -68,73 +68,61 @@
                            inkscape:label="haxe"
                            style="display:inline">
                           <g
-                                        id="haxe">
+                                        id="haxe"
+                                        style="stroke-width:1.00001">
                                        <path
                                                      d="M 0.52916667,0.52916667 4.2333333,1.4181107 1.4175507,4.2333333 Z"
-                                                     fill="#f8b218"
                                                      id="path3002"
                                                      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 4.2333333,1.4181107 1.4175507,4.2333333 4.2333333,7.0485559 7.0482759,4.2333333 Z"
-                                                     fill="#f6871f"
                                                      id="path3000"
-                                                     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712;opacity:0.88"
+                                                     style="opacity:0.88;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712"
                                                      inkscape:export-filename="/home/tong/dev/armory3d/armsdk/armory/blender/arm/custom_icons/path3000.png"
                                                      inkscape:export-xdpi="96"
                                                      inkscape:export-ydpi="96" />
                                        <path
                                                      d="M 7.9374999,0.52916667 4.2333333,1.4181107 7.047996,4.2333333 Z"
-                                                     fill="#f15e22"
                                                      id="path3004"
-                                                     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712;opacity:0.66" />
+                                                     style="opacity:0.66;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 0.52916667,7.9374999 4.2333333,7.0485559 1.4175507,4.2333333 Z"
-                                                     fill="#f8b218"
                                                      id="path3006"
                                                      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 7.9374999,7.9374999 4.2333333,7.0485559 7.047996,4.2333333 Z"
-                                                     fill="#f15e22"
                                                      id="path3008"
-                                                     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712;opacity:0.66" />
+                                                     style="opacity:0.66;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 0.52916667,0.52916667 1.4178307,4.2333333 0.52916667,2.38125 Z"
-                                                     fill="#fcee23"
                                                      id="path3010"
                                                      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 7.9374999,0.52916667 7.0482759,4.2333333 7.9372199,2.38125 Z"
-                                                     fill="#f04923"
                                                      id="path3012"
-                                                     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712;opacity:0.66" />
+                                                     style="opacity:0.66;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 0.52916667,7.9374999 1.4178307,4.2333333 0.52916667,6.0854166 Z"
-                                                     fill="#fcee23"
                                                      id="path3014"
                                                      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 7.9374999,7.9374999 7.0482759,4.2333333 7.9372199,6.0854166 Z"
-                                                     fill="#f04923"
                                                      id="path3016"
-                                                     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712;opacity:0.66" />
+                                                     style="opacity:0.66;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 0.52916667,7.9374999 4.2333333,7.0485559 2.38097,7.9374999 Z"
-                                                     fill="#f15e22"
                                                      id="path3018"
-                                                     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712;opacity:0.66" />
+                                                     style="opacity:0.66;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 0.52916667,0.52916667 4.2333333,1.4181107 2.38069,0.52916667 Z"
-                                                     fill="#fbc712"
                                                      id="path3020"
-                                                     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712;opacity:0.66" />
+                                                     style="opacity:0.66;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 7.9374999,7.9374999 4.2333333,7.0485559 6.0851366,7.9374999 Z"
-                                                     fill="#a84b38"
                                                      id="path3022"
                                                      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                                        <path
                                                      d="M 7.9374999,0.52916667 4.2333333,1.4181107 6.0848566,0.52916667 Z"
-                                                     fill="#fbc712"
                                                      id="path3024"
                                                      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:3.5712" />
                           </g>

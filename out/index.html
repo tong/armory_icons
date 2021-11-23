@@ -1,74 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width,initial-scale=1'>
-        <title>Armory3D Icons</title>
-        <style>
-            body {
-                background: #383838;
-            }
-            preview {
-                padding: 1rem;
-                display: grid;
-                /* place-items: center; */
-            }
-            preview>group {
-                display: flex;
-            }
-            preview>group>img {
-                margin: 0.25ch;
-                padding: 2em;
-                background: #202020;
-            }
-        </style>
-    </head>
-    <body>
-        <preview>
-            <group>
-                <img src="bundle.png">
-                <img src="canvas.png">
-                <img src="haxe.png">
-                <img src="nodes.png">
-                <img src="logicnodes.png">
-            </group>
-        </preview>
-        <preview>
-            <group>
-                <img src="bundle.svg" height="128">
-                <img src="bundle.svg" height="64">
-                <img src="bundle.svg" height="32">
-                <img src="bundle.svg" height="16">
-                <img src="bundle.svg" height="8">
-            </group>
-            <group>
-                <img src="haxe.svg" height="128">
-                <img src="haxe.svg" height="64">
-                <img src="haxe.svg" height="32">
-                <img src="haxe.svg" height="16">
-                <img src="haxe.svg" height="8">
-            </group>
-            <group>
-                <img src="nodes.svg" height="128">
-                <img src="nodes.svg" height="64">
-                <img src="nodes.svg" height="32">
-                <img src="nodes.svg" height="16">
-                <img src="nodes.svg" height="8">
-            </group>
-            <group>
-                <img src="canvas.svg" height="128">
-                <img src="canvas.svg" height="64">
-                <img src="canvas.svg" height="32">
-                <img src="canvas.svg" height="16">
-                <img src="canvas.svg" height="8">
-            </group>
-            <group>
-                <img src="logicnodes.svg" height="128">
-                <img src="logicnodes.svg" height="64">
-                <img src="logicnodes.svg" height="32">
-                <img src="logicnodes.svg" height="16">
-                <img src="logicnodes.svg" height="8">
-            </group>
-        </preview>
-    </body>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>Armory3D Icons</title>
+    <style>
+        body {
+            padding: 1rem;
+            display: grid;
+            background: #383838;
+        }
+        hr {
+            width: 100%;
+            border:1px solid #585858;
+        }
+        exported>img {
+            padding: 8px;
+            background: #202020;
+        }
+        preview {
+            display: flex;
+            align-items: flex-end;
+        }
+        preview>img {
+            margin: 0.25ch;
+            padding: 1em;
+            background: #202020;
+        }
+        preview[highlighted] {
+            align-items: flex-start;
+        }
+        preview[highlighted]>img {
+            background: #696E76;
+        }
+    </style>
+</head>
+<body>
+    <exported>
+        <img src="bundle.png">
+        <img src="haxe.png">
+        <img src="canvas.png">
+        <img src="nodes.png">
+        <img src="logicnodes.png">
+    </exported>
+    <hr/>
+    <preview data-icon="bundle">
+        <img src="bundle.svg" height="128">
+        <img src="bundle.svg" height="64">
+        <img src="bundle.svg" height="32">
+        <img src="bundle.svg" height="16">
+        <img src="bundle.svg" height="8">
+    </preview>
+    <preview highlighted>
+        <img src="bundle.svg" height="128">
+        <img src="bundle.svg" height="64">
+        <img src="bundle.svg" height="32">
+        <img src="bundle.svg" height="16">
+        <img src="bundle.svg" height="8">
+    </preview>
+    <preview data-icon="haxe">
+        <img src="haxe.svg" height="128">
+        <img src="haxe.svg" height="64">
+        <img src="haxe.svg" height="32">
+        <img src="haxe.svg" height="16">
+        <img src="haxe.svg" height="8">
+    </preview>
+    <preview highlighted>
+        <img src="haxe.svg" height="128">
+        <img src="haxe.svg" height="64">
+        <img src="haxe.svg" height="32">
+        <img src="haxe.svg" height="16">
+        <img src="haxe.svg" height="8">
+    </preview>
+    <preview>
+        <img src="nodes.svg" height="128">
+        <img src="nodes.svg" height="64">
+        <img src="nodes.svg" height="32">
+        <img src="nodes.svg" height="16">
+        <img src="nodes.svg" height="8">
+    </preview>
+    <preview highlighted>
+        <img src="nodes.svg" height="128">
+        <img src="nodes.svg" height="64">
+        <img src="nodes.svg" height="32">
+        <img src="nodes.svg" height="16">
+        <img src="nodes.svg" height="8">
+    </preview>
+    <preview>
+        <img src="canvas.svg" height="128">
+        <img src="canvas.svg" height="64">
+        <img src="canvas.svg" height="32">
+        <img src="canvas.svg" height="16">
+        <img src="canvas.svg" height="8">
+    </preview>
+    <preview highlighted>
+        <img src="canvas.svg" height="128">
+        <img src="canvas.svg" height="64">
+        <img src="canvas.svg" height="32">
+        <img src="canvas.svg" height="16">
+        <img src="canvas.svg" height="8">
+    </preview>
+    <preview>
+        <img src="logicnodes.svg" height="128">
+        <img src="logicnodes.svg" height="64">
+        <img src="logicnodes.svg" height="32">
+        <img src="logicnodes.svg" height="16">
+        <img src="logicnodes.svg" height="8">
+    </preview>
+    <preview highlighted>
+        <img src="logicnodes.svg" height="128">
+        <img src="logicnodes.svg" height="64">
+        <img src="logicnodes.svg" height="32">
+        <img src="logicnodes.svg" height="16">
+        <img src="logicnodes.svg" height="8">
+    </preview>
+</body>
 </html>

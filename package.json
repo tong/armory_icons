@@ -6,7 +6,9 @@
   "scripts": {
     "clean": "rm -f out/*.png out/*.svg",
     "export-png": "node export-png.js",
-    "export-svg": "svgo -f src out"
+    "export-svg": "node export-svg.js",
+    "build": "npm run clean && npm run export-svg && npm run export-png",
+    "install": "node install"
   },
   "repository": {
     "type": "git",

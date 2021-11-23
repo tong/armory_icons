@@ -4,7 +4,7 @@
 <svg
               width="32"
               height="32"
-              viewBox="0 0 8.4666666 8.4666668"
+              viewBox="0 0 8.4666666 8.4666669"
               version="1.1"
               id="svg8"
               sodipodi:docname="bundle.svg"
@@ -28,16 +28,16 @@
                            borderopacity="1.0"
                            inkscape:pageopacity="0"
                            inkscape:pageshadow="2"
-                           inkscape:zoom="8.2672218"
-                           inkscape:cx="21.530812"
-                           inkscape:cy="71.426656"
+                           inkscape:zoom="9.0124905"
+                           inkscape:cx="7.2122129"
+                           inkscape:cy="14.479904"
                            inkscape:document-units="px"
                            inkscape:current-layer="layer1"
                            showgrid="true"
                            units="px"
-                           inkscape:window-width="1327"
+                           inkscape:window-width="1685"
                            inkscape:window-height="2136"
-                           inkscape:window-x="1057"
+                           inkscape:window-x="2003"
                            inkscape:window-y="20"
                            inkscape:window-maximized="0"
                            inkscape:pagecheckerboard="true"
@@ -67,7 +67,8 @@
                            inkscape:label="bundle"
                            style="display:inline">
                           <g
-                                        id="bundle">
+                                        id="bundle"
+                                        style="stroke-width:1">
                                        <path
                                                      style="clip-rule:evenodd;opacity:0.66;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.23333;stroke-linejoin:round;stroke-miterlimit:2"
                                                      d="M 3.6353927,4.4482375 3.0628535,5.4892907 C 4.9276997,5.9555279 5.6985976,6.931173 6.290039,7.9375001 H 6.5779211 L 5.8876485,5.6199263 C 5.1226975,4.9887463 4.3754428,4.6557318 3.6353927,4.4482375 Z"
