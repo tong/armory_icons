@@ -3,8 +3,9 @@ name: build
 on:
   push:
     paths:
-      - .github/workflows/*.yml
       - src/*
+      - *.js
+      - .github/workflows/*.yml
 
 jobs:
   build:
