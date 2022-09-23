@@ -4,34 +4,50 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width,initial-scale=1'>
     <title>Armory3D Icons</title>
+    <link rel='icon' href='https://armory3d.org/favicon.ico'>
     <style>
+        :root {
+            --dark: #202020;
+            --medium: #383838;
+            --light: #696E76;
+            --red: #cf2b43;
+        }
         body {
-            padding: 1rem;
+            padding: 2rem;
             display: grid;
-            background: #383838;
+            background: var(--medium);
+            font-family: monospace;
+        }
+        footer {
+            display: none;
         }
         hr {
             width: 100%;
-            border:1px solid #585858;
+            background: var(--light);
+            border: 1px dotted var(--medium);
+        }
+        exported {
+            margin-bottom: 1rem;
         }
         exported>img {
-            padding: 8px;
-            background: #202020;
+            padding: 1rem;
+            background: var(--dark);
         }
         preview {
             display: flex;
             align-items: flex-end;
+            margin: 1rem 0;
         }
         preview>img {
             margin: 0.25ch;
             padding: 1em;
-            background: #202020;
+            background: var(--dark);
         }
         preview[highlighted] {
             align-items: flex-start;
         }
         preview[highlighted]>img {
-            background: #696E76;
+            background: var(--light);
         }
     </style>
 </head>
@@ -42,6 +58,7 @@
         <img src="canvas.png">
         <img src="nodes.png">
         <img src="logicnodes.png">
+        <img src="wasm.png">
     </exported>
     <hr/>
     <preview data-icon="bundle">
@@ -128,5 +145,9 @@
         <img src="wasm.svg" height="16">
         <img src="wasm.svg" height="8">
     </preview>
-</body>
+    <footer>
+        <a href="https://armory3d.org">https://armory3d.org</a>
+        <a href="https://disktree.net">https://disktree.net</a>
+    </footer>
+  </body>
 </html>
